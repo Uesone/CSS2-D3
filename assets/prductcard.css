@@ -10,11 +10,11 @@ body {
 
 .product-card {
     width: 250px;
-    border: 1px solid #FBF7E3;
+    border: 1px solid #F3DF85;
     border-radius: 25%;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #FBF7E3;
+    background-color: #F3DF85;
 }
 
 .product-image {
@@ -58,7 +58,7 @@ body {
     width: 60%;
     padding: 10px 0;
     margin-top: 10px;
-    background-color: #F6E287;
+    background-color: #F3DF85;
     color: #612406;
     border: none;
     border-radius: 60px;

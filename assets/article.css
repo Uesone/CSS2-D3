@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    align-items: flex-start; 
+    background-color: #F3DF85;
+    ; 
+    border-radius: 55px; 
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.image-container {
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.content-container {
+    flex: 1; 
+}
+
+.content-container h1 {
+    font-size: 24px;
+    margin-top: 30px;
+
+    margin-bottom: 10px;
+    color: #612406;
+}
+
+.content-container p {
+    font-size: 16px;
+    color:#612406;
+    margin: 0; 
+}
