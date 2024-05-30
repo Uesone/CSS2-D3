@@ -280,4 +280,8 @@ article h1 {
     text-align: left;
     margin-left: 0;
   }
+
+  .price{
+    font-size: 1em;
+  }
 }
