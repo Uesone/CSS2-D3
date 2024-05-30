@@ -91,7 +91,7 @@ main {
 }
 
 .product-info {
-  padding: 15px;
+  padding: 10px;
 }
 
 .card-text {
@@ -240,7 +240,7 @@ article h1 {
   }
 
   .cards-container {
-    align-items: center;
+    gap: 20px;
   }
 
   .product-card {
@@ -266,15 +266,18 @@ article h1 {
   .image-container {
     margin-right: 0;
     margin-bottom: 20px;
+    order: 2;
+    margin-top:20px;
   }
 
   .content-container h1, .content-container p {
-    text-align: center;
+    text-align: left;
+    order: 1;
   }
 
   main h1, article h1 {
     font-size: 28px;
-    text-align: center;
+    text-align: left;
     margin-left: 0;
   }
 }
