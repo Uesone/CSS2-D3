@@ -191,3 +191,90 @@ article h1 {
   margin-bottom: 20px;
   margin-left: 2%;
 }
+
+@media screen and (max-width: 768px) {
+  
+  .main-container {
+    flex-direction: column;
+    height: 100vh; 
+    overflow: hidden;
+  }
+
+  aside {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0;
+    white-space: nowrap;
+  }
+
+  .nav-buttons {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: auto;
+  }
+
+  .nav-button {
+    width: auto;
+    flex: 0 0 auto;
+    margin: 10px 5px;
+    padding: 10px;
+  }
+
+  .shop-button {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .shop-button img {
+    width: 40px;
+    height: 30px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .cards-container {
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .card-text h3, .card-text p, .price, .add-to-cart {
+    text-align: center;
+  }
+
+  .add-to-cart {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .content-container h1, .content-container p {
+    text-align: center;
+  }
+
+  main h1, article h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-left: 0;
+  }
+}
